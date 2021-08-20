@@ -1,0 +1,21 @@
+curl 'http://localhost:8080/movies?director=Zack%20Snyder&year=2021' | json_pp
+
+ % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   216  100   216    0     0    216      0  0:00:01 --:--:--  0:00:01   923
+[
+   {
+      "id" : "6bcbca1e-efd3-411d-9f7c-14b872444fce",
+      "year" : 2021,
+      "title" : "Zack Snyder's Justice League",
+      "director" : "Zack Snyder",
+      "actors" : [
+         "Henry Cavill",
+         "Gal Godot",
+         "Ezra Miller",
+         "Ben Affleck",
+         "Ray Fisher",
+         "Jason Momoa"
+      ]
+   }
+]
